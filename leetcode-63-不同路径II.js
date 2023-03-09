@@ -7,8 +7,6 @@ var uniquePathsWithObstacles = function (obstacleGrid) {
   const m = obstacleGrid.length;
   const n = obstacleGrid[0].length;
 
-  console.log(m, n);
-
   // 创建 dp 数组
   // const dp = new Array(m).fill(new Array(n).fill(0));
   const dp = new Array(m).fill().map(() => new Array(n).fill(0));

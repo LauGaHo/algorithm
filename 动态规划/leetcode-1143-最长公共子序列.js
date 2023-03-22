@@ -37,3 +37,5 @@ var longestCommonSubsequence = function (text1, text2) {
 
   return dp[text1.length - 1][text2.length - 1];
 };
+
+longestCommonSubsequence("abcde", "ace");
